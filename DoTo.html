@@ -7,6 +7,7 @@
 	<title>DoTos</title>
 	<style>
 		.main {
+			position: relative;
 			background-color: #fbfafa;
 		    width: 350px;
 		    padding: 10px;
@@ -15,7 +16,7 @@
 		    box-shadow: 0px 0px 1px 1px #656565;
 		    margin: 0 auto;
 		    text-align: center;
-		    padding-bottom: 30px;
+		    padding-bottom: 44px;
 		}
 		.done span {
 			text-decoration: line-through;
@@ -70,6 +71,16 @@
 		    border: 0;
 		    box-shadow: 0px 0px 1px 1px #d7cfcf;
 		}
+		.armtarget {
+			font-size: 180%;
+		    font-family: fantasy;
+		    font-style: italic;
+	        position: absolute;
+		    right: 7px;
+		    color: firebrick;
+		    bottom: -19px;
+		    opacity: 0.76;
+		}
 	</style>
 </head>
 <body>
@@ -81,6 +92,7 @@
 
 		<div id=id-div-todocontainer>
 		</div>
+		<p class="armtarget">ArmNote.</p>
 	</div>
 
 	<!-- <div id=id-div-inputadd>
